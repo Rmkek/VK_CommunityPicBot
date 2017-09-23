@@ -72,7 +72,6 @@ groupVK.longpoll.on("message", message => {
     return
   }
 
-  //TODO REFACTOR THIS IF SHIT
   console.log(`[DEBUG] Message: ${message}`)
   if (checkForTextAndPhoto) {
     console.log("[DEBUG] Got !news command in user message.");
